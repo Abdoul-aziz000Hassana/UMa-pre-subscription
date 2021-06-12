@@ -1,0 +1,139 @@
+body{
+	background-image: url(../images/dpt.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-top: 72px;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.title{
+	font-size: 25px;
+	font-family: forte;
+	box-shadow: 2px 2px 50px #000;
+	width: 50px;
+	height: 50px;
+	background: #5cb85c;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+}
+.monMenu{
+	padding-left: 3px;
+	color: #000;
+}
+	
+.piedDepage{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.monMenu hr{
+	height: 1px; 
+	background-color: #000; 
+	margin-top: 1px;
+}
+.specialBurger{
+	margin-top: 130px;
+	padding-top: 2% ;
+	width: 340px;
+}
+.specialBurger ul li{
+	transition: .2s;
+}
+.specialBurger ul li:hover{
+	transform: scale(1.1);
+}
+.specialBurger span{
+	color: #fff;
+	font-size: 30px;
+	float: left;
+	margin: 16px 10px 0px -10px;
+}
+.specialBurger ul{
+	list-style-type: none;
+	margin: 0px -10px;
+}
+.specialBurger ul ul{
+	visibility: hidden;
+	list-style-type: none;
+	position: absolute;
+	width: 190px;
+	left: 40px;
+	top:-120px;
+	padding: 10px 15px;
+	background-color: #337ab7;
+}
+.specialBurger ul li:hover ul{
+	visibility: visible;
+}
+.specialBurger a, .specialBurger a:hover{
+	color: #fff;
+	font-size: 15px;
+}
+
+.col1>*{
+	margin: 20px 20px;
+}
+#jeuDelumiere{
+	margin-top: 75px;
+	background: linear-gradient(to top, #213748, #337ab7);
+	color: #fff;
+	height: 35px;
+	font-size: 21px;
+	padding: 0 20px;
+	font-family: comic sans ms;
+}
+.selected{
+	border: 1px solid #337ab7;
+	border-radius: 5px;
+	padding: 15px 0;
+	background: rgba(255, 255, 255, 0.6);
+}
+.boutons a{
+	margin-top: 70px;
+	margin-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 20px;
+	font-family: comic sans ms;
+	border-radius:25px;
+	display:inline-block;
+	transform: scale(1.1) rotate(45deg) ;
+	height: 170px;
+	width: 200px;
+	transition: .3s;
+	box-shadow: 0 0 15px black inset;
+}
+.boutons a:hover, .boutons a:focus{
+	transform: scale(1.2) rotate(0deg) ;
+}
+.FormulaireAuthentification{
+	display: none;
+	background: white;
+	padding: 30px;
+	height: 300px;
+	margin-top:30px;
+	border: 1px solid #337ab7
+}
+.sousEdit{
+	margin-top: -6px;
+}
+.sousEdit ul {
+	margin-top: 35px
+}
+.FormulaireAuthentification input[type='text'], .FormulaireAuthentification input[type='password']{
+	border: 1px solid #337ab7
+}
+.specialBurger span, span{
+	margin:2px 2px ;font-size: 12px
+}
+button#clos{
+	padding: 5px 10px;
+	transition: .3s
+}
+button.close:hover{
+	color: white;
+	background: red;
+}
